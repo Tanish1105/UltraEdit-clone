@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.logo img {
+    width: 164px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+}
+.rightside ul{
+    display: flex;
+    gap: 30px;
+    
+}
+.rightside ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+svg{
+    padding-left: 3px;
+    padding-top: 3px;
+}
+.maintop{
+    /* height: 400px; */
+    width: 100%;
+    /* background-color: #00b6d1; */
+    justify-content: center;
+    text-align: center;
+   padding-top: 100px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   flex-direction: column;
+   /* gap: 25px; */
+}
+div .firstline{
+    font-size: 50px;
+}
+div .secondline pre{
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div button{
+    margin-top: 49px;
+    margin-bottom: 70px;
+    padding: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: #00b6d1;
+    font-weight: 800;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 0px;
+}
+.main{
+    height: 600px;
+    width: 80%;
+    margin-left: 10%;
+}
+.top{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    /* text-align: center; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+.top > p {
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 0px;
+    padding-left: 20px;
+  }
+  .top small{
+    font-size: 14px;
+  }
+.top img{
+    padding-top: 5px;
+}
+.centor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 24px;
+    font-family: sans-serif;
+
+}
+.centor > div {
+    background-color: #f9f9f9;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 45px;
+}
+p{
+    margin-top: 10px;
+    font-size: 13px;}
+
+.btn{
+   border: 0px ;
+   margin-top: 42px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.blue{
+    background-color: #00b6d1;
+}
+.green{
+    background-color: #5cb85c;
+}
